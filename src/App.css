@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Mobile-specific styles */
+
+  @media (max-width: 768px) {
+    section {
+      background-size: cover; /* Make sure the image covers the screen */
+    }
+
+    h1 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+
+    p {
+      font-size: 0.875rem; /* Adjust font size for paragraph */
+      max-width: 100%; /* Allow text to take full width */
+    }
+
+    button {
+      padding: 0.5rem 1.5rem; /* Reduce button padding for mobile */
+    }
+  }
